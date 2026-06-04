@@ -1,10 +1,10 @@
 import socket
 import time
  
-TARGET_IP  = "192.168.56.101"  # <-- cambia con l'IP del tuo target
-TARGET_PORT = 22               # porta SSH
-NUM_PACKETS = 10               # numero di pacchetti da inviare
-DELAY       = 0.5              # secondi tra un pacchetto e l'altro
+TARGET_IP  = "192.168.56.101"  
+TARGET_PORT = 22               
+NUM_PACKETS = 10               
+DELAY       = 0.5              
  
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
  
